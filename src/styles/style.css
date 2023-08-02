@@ -17,10 +17,14 @@
     background-color: var(--trenary-color);
 }
 
+#BackgroundWhite {
+    background-color: #f3f3f3;
+}
+
 /* NavBar */
 
 #e-mail-C {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -42,10 +46,43 @@
 }
 
 .UlList li {
+    cursor: pointer;
     font-size: larger;
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+.UlList li:active {
+    color: #ff0000;
+}
+
+.UlList li:hover {
+    color: #ff0000;
+    width: 100%;
 }
 
 /* Hero */
+
+.modal-body {
+    background-color: #0e0e0e;
+    color: #fff;
+    font-family: Syne !important;
+    padding-bottom: 0% !important;
+    margin-bottom: 0px;
+    border: none !important;
+    border-radius: none !important;
+}
+
+.modal-header {
+    background-color: #252525;
+    color: #fff;
+    font-family: Syne !important;
+    padding-bottom: 0% !important;
+    margin-bottom: 0px;
+    border: none !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
 
 #text-1 {
     color: rgba(255, 255, 255, 0.40);
@@ -183,6 +220,25 @@
     font-family: Syne;
     font-size: 18px;
     font-style: normal;
+    line-height: normal;
+}
+
+#text16 {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#text17 {
+    color: #969696;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -566,7 +622,7 @@ input[type="range"] {
 }
 
 #ServiceCard:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     /* The image will scale up to 1.1 times its original size on hover */
 }
 
@@ -606,12 +662,14 @@ input[type="range"] {
     color: var(--bs-card-color);
 }
 
-#blogsImg{
-    transition: transform 0.4s ease; /* Here, we are setting the transition effect for the transform property */
+#blogsImg {
+    transition: transform 0.4s ease;
+    /* Here, we are setting the transition effect for the transform property */
 }
 
-#blogsImg:hover{
-    transform: scale(0.9); /* The image will scale up to 1.1 times its original size on hover */
+#blogsImg:hover {
+    transform: scale(0.9);
+    /* The image will scale up to 1.1 times its original size on hover */
 }
 
 #DesignedCard img {
@@ -701,7 +759,11 @@ input[type="range"] {
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    border: 3px solid #f9a7ff;
+    border: 3px solid #ffe603;
+}
+
+#TestimonialContainer:hover #TestimonialImage {
+    border: 3px solid #ffa600;
 }
 
 #PersonName {

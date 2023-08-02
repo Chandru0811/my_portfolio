@@ -46,13 +46,13 @@ function Testimonial() {
             </div>
             <div
               className="col-lg-6 col-md-6 col-12 my-5 p-5"
-              style={{ backgroundColor: "#fff" }}
+              style={{ backgroundColor: "#fff" }} id="TestimonialContainer"
             >
               <p id="Testimonial_heading">What Are Clients Saying?</p>
               <Carousel
                 swipeable={true}
                 draggable={true}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
@@ -76,7 +76,7 @@ function Testimonial() {
                         id="TestimonialImage"
                       />
                       <h3 id="PersonName" className="px-2">
-                        Hello
+                        Chandru
                       </h3>
                     </span>
                     <span>
